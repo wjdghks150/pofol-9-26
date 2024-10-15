@@ -12,7 +12,7 @@ function preload() {
   let progressBar7 = document.querySelector(".progress-bar");
   let progressText7 = document.querySelector(".progress-text");
   let imgLoaded7 = 0;
-  let imgTotal7 = 1100;
+  let imgTotal7 = 200;
   let current7 = 0;
   let progressTimer7;
   let topValue7;
@@ -67,28 +67,30 @@ preload()
 
 
 
+
+
 ////////////////////////////////////////////////////////////////////////////
 
 
-function page1_back() {
-  VANTA.CLOUDS({
-    el: ".page1_a",
-    mouseControls: true,
-    touchControls: true,
-    gyroControls: false,
-    minHeight: 200.00,
-    minWidth: 200.00,
-    skyColor: 0x2d0f2d,
-    cloudColor: 0x2d0f2d,
-    cloudShadowColor: 0xc411e,
-    sunColor: 0x461270,
-    sunGlareColor: 0x14147f,
-    sunlightColor: 0xffffff,
-    speed: 1
-  })
+// function page1_back() {
+//   VANTA.CLOUDS({
+//     el: ".page1_a",
+//     mouseControls: true,
+//     touchControls: true,
+//     gyroControls: false,
+//     minHeight: 200.00,
+//     minWidth: 200.00,
+//     skyColor: 0x2d0f2d,
+//     cloudColor: 0x2d0f2d,
+//     cloudShadowColor: 0xc411e,
+//     sunColor: 0x461270,
+//     sunGlareColor: 0x14147f,
+//     sunlightColor: 0xffffff,
+//     speed: 1
+//   })
 
-}
-page1_back()
+// }
+// page1_back()
 
 
 
